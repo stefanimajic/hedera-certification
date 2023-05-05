@@ -1,0 +1,21 @@
+{
+  "name": "hedera-certification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task:setup": "node src/setup.js",
+    "task:token-service": "node src/token-service.js",
+    "task:smart-contract": "node src/smart-contract.js",
+    "task:scheduled-transaction": "node src/scheduled-transaction.js",
+    "task:multi-signature": "node src/multi-signature.js",
+    "task:consensus-service": "node src/consensus-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.2",
+    "dotenv": "^16.0.3"
+  }
+}

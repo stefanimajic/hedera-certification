@@ -1,0 +1,10 @@
+smajic@XX273 hedera-certification % npm run task:consensus-service
+
+> hedera-certification@1.0.0 task:consensus-service
+> node src/consensus-service.js
+
+Created topic with id: 0.0.4569595
+Look at topic messages: https://hashscan.io/testnet/topic/0.0.4569595
+Err: {"name":"StatusError","status":"INVALID_SIGNATURE","transactionId":"0.0.4567995@1683282853.267211931","message":"receipt for transaction 0.0.4567995@1683282853.267211931 contained error status INVALID_SIGNATURE"}
+
+Sent message to topic: 0.0.4569595, message: 2023-05-05T10:34:25.479Z

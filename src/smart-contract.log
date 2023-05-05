@@ -1,0 +1,8 @@
+smajic@XX273 hedera-certification % npm run task:smart-contract
+
+> hedera-certification@1.0.0 task:smart-contract
+> node src/smart-contract.js
+
+ContractId: 0.0.4568571
+Result 1: 12
+Result 2: 14
